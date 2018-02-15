@@ -1,5 +1,4 @@
-# WSO2 Enterprise Integrator <br> For Integration
-
+# WSO2 Enterprise Integrator
 
 ## Prerequisites
 
