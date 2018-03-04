@@ -23,4 +23,4 @@ FROM wso2ei-base:6.1.1
 EXPOSE 8280 8243 9443
 
 # set entrypoint to integrator startup script
-ENTRYPOINT ${WSO2_SERVER_HOME}/bin/integrator.sh
+CMD "${WSO2_SERVER_HOME}/bin/integrator.sh"

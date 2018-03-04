@@ -23,7 +23,7 @@ LABEL name="CentOS WSO2 EI" \
     vendor="CentOS" \
     license="GPLv2" \
     build-date="20161214"
-MAINTAINER MDG DevOps HMRC "messaging-devops@hmrc.gsi.gov.uk"
+MAINTAINER Varun Mahadkar "varun.mahadkar@gmail.com"
 
 # set user configurations
 ARG USER=wso2
