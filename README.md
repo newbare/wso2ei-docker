@@ -1,11 +1,10 @@
-# Docker Resources for WSO2 Enterprise Integrator
+# Este repositório contém os seguintes recursos do Docker:
 
-This repository contains following Docker resources :
+    Dockerfiles para criar imagens docker
+    Docker compõe arquivos para avaliar a implementação simples do WSO2 EI com o banco de dados MySQL.
 
-- Dockerfiles to create docker images
-- Docker-compose files to evaluate simple WSO2 EI deployment with MySQL Database.
+- O Dockerfiles nos permite construir imagens do Docker genéricas para implantar o produto em ambientes contêineres.
+ - O Dockerfile base inclui o JDK e a distribuição do produto.
+Configurações, driver JDBC, extensões e outros artefatos implementáveis ​​são projetados para serem fornecidos por meio de montagens de volume.
 
-Dockerfiles enables us to build generic Docker images for deploying the product in containerized environments. <br> The base Dockerfile includes the JDK and product distribution. <br>
-Configurations, JDBC driver, extensions and other deployable artifacts are designed to be provided via volume mounts.
-
-The Docker Compose file make use of the docker images of WSO2 Enterprise Integrator and MySQL.
+O arquivo Docker Compose faz uso das imagens docker do WSO2 Enterprise Integrator e MySQL.
